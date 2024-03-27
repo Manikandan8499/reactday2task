@@ -1,0 +1,57 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  width: auto;
+  height: 600px;
+  text-align: center;
+  background-image: linear-gradient(to bottom, blue, rgb(120, 159, 243));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+  /* background-color: aliceblue; */
+}
+
+.price-card{
+  padding : 20px;
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  background-color: white;
+}
+.abled{
+  opacity: normal;
+  text-align: left;
+}
+
+.disabled{
+  opacity: 0.5;
+  text-align: left;
+}
+
+.type {
+  width: auto;
+  height: 20px;
+  font-weight: bolder;
+  opacity: 0.5;
+}
+.Price_abled{
+  margin: auto;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.btn{
+  width: 250px;
+  height: 50px;
+  font-size: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: blue;
+  color: white;
+}
+.btn:hover{
+  cursor: pointer;
+  font-size: 12px;
+  box-shadow: 1px 2px rgb(182, 160, 129);
+  border: 1px solid;
+}
